@@ -13,14 +13,14 @@ const PageId = async ({params}) => {
 
   return (
     <div className='w-full h-auto p-7 flex flex-col justify-center items-center'>
-    <div className='w-2/3 h-autp p-5 bg-purple-950 shadow-xl text-white rounded-xl'>
+    <div className='md:w-2/3 w-full h-auto p-5 bg-purple-950 shadow-xl text-white rounded-xl'>
     <div className='w-full h-auto flex justify-center items-center p-5'>
       <h1 className='text-6xl font-semibold'>{data.title}</h1>
       </div>
       <div className='w-full h-[450px] flex justify-center items-center'>
      <img className='w-full h-full object-cover rounded-lg' src={data.thumbnail} />
      </div>
-      <div className='w-[300px] h-[100px] flex justify-center items-center my-5 bg-purple-500 rounded-full shadow-md'>
+      <div className='md:w-[300px] md:h-[100px] w-full h-auto flex justify-center items-center my-5 bg-purple-500 rounded-full shadow-md'>
       <h1 className='text-4xl font-semibold'>Price: {data.price}$</h1>
       </div>
       <h1 className='text-2xl font-semibold pb-2'>Description</h1>
