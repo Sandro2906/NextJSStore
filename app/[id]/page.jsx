@@ -12,7 +12,7 @@ const PageId = async ({params}) => {
   const data = await getData()
 
   return (
-    <div className='w-full h-auto p-7 flex flex-col justify-center items-center'>
+    <div className='w-full h-auto md:p-7 p-21flex flex-col justify-center items-center'>
     <div className='md:w-2/3 w-full h-auto p-5 bg-purple-950 shadow-xl text-white rounded-xl'>
     <div className='w-full h-auto flex justify-center items-center p-5'>
       <h1 className='text-6xl font-semibold'>{data.title}</h1>
